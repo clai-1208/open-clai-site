@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN" class="font-sans">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Open CLAI 全能画布" />
+        <title>Open CLAI 全能画布</title>
+        <link rel="preconnect" href="https://embed.tawk.to" crossorigin />
+        <link rel="preconnect" href="https://va.tawk.to" crossorigin />
+        <link rel="preload" as="script" href="https://embed.tawk.to/6ac93194f669fe34c349c586/1k4gujc5n" crossorigin />
+        <style>
+            html[data-hide-tawk] #tawk-bubble-container,
+            html[data-hide-tawk] #tawkchat-container,
+            html[data-hide-tawk] iframe[src*="tawk.to"] {
+                display: none !important;
+                visibility: hidden !important;
+                pointer-events: none !important;
+            }
+        </style>
+        <script>
+            if (/^\/canvas\/[^/]+/.test(location.pathname)) document.documentElement.setAttribute("data-hide-tawk", "");
+            var Tawk_API = Tawk_API || {},
+                Tawk_LoadStart = new Date();
+        </script>
+        <script async src="https://embed.tawk.to/6ac93194f669fe34c349c586/1k4gujc5n" charset="UTF-8" crossorigin="*"></script>
+        <script>
+            try {
+                var s = JSON.parse(localStorage.getItem("infinite-canvas:theme_store") || "{}");
+                var t = s.state && s.state.theme === "light" ? "light" : "dark";
+                document.documentElement.classList.toggle("dark", t === "dark");
+                document.documentElement.style.colorScheme = t;
+            } catch (e) {}
+        </script>
+      <script type="module" crossorigin src="/assets/index-Dp3hQmnY.js"></script>
+      <link rel="stylesheet" crossorigin href="/assets/index-CnTCTG4m.css">
+    </head>
+    <body class="bg-background text-foreground antialiased">
+        <div id="root"></div>
+        <script src="/config.js"></script>
+    </body>
+</html>
